@@ -9,6 +9,8 @@
 
 
 ## How to use:
+Just include the CSS file in your HTML.
+
 * [Documentation](https://samuelramox.github.io/cleanss/)
 
 
