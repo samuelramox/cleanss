@@ -1,7 +1,8 @@
 # CleanSS
 
-## A simple CSS framework:
+## A clean CSS framework:
 
+- Simple
 - Small
 - Easy
 - Flexbox
