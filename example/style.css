@@ -1,0 +1,194 @@
+/* Tabela de conteúdos
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Geral
+- Navegação
+- Header
+- Destaques
+- Planos
+- Equipe
+- Rodapé
+*/
+
+/* Geral
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.secao {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 750px) {
+  .secao {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+}
+
+/* Navegação
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+nav.nav {
+  position: relative;
+}
+
+.nav.hamburger {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.nav.logo {
+  display: inline-block;
+  padding: 1rem 0 0.3rem;
+}
+
+.nav.link {
+  display: inline-block;
+  color: #555;
+  text-decoration: none;
+  padding: 2.5rem;
+  padding-left: 0;
+}
+
+.nav.link:visited {
+  color: #555;
+}
+
+.nav.menu {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  max-height: 0;
+  overflow: hidden;
+  transition: all ease-in-out .2s;
+}
+
+.nav.menu.aberto {
+  max-height: 30rem;
+}
+
+@media screen and (min-width: 750px) {
+  .nav.link {
+    padding-left: 2.5rem
+  }
+  .nav.menu {
+    justify-content: flex-end;
+    flex-flow: row nowrap;
+    max-height: 20rem;
+  }
+  .nav.hamburger {
+    display: none;
+  }
+}
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+header.header {
+  width: 100%;
+  height: 500px;
+  background-image: url('./img/ceu.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header.titulo,
+.header.texto {
+  color: #fff;
+}
+
+/* Destaques
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.destaque {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.destaque h2 {
+  margin: 1rem 0;
+}
+
+/* Planos
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.planos {
+  background-image: url('./img/estrelas.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 1rem;
+}
+
+.planos h2 {
+  color: #fff;
+}
+
+.plano {
+  margin-bottom: 4rem;
+}
+
+.limitador {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 750px) {
+  .plano {
+    margin-bottom: 0;
+  }
+}
+
+.plano.cabecalho {
+  text-align: center;
+}
+
+.plano.categoria {
+  color: #bbb;
+  font-weight: bold;
+  margin: 0;
+}
+
+.plano.valor {
+  margin: 0;
+}
+
+.plano.valor.grande {
+  font-size: 7rem;
+}
+
+/* Equipe
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.equipe.titulo {
+  margin-top: 0;
+}
+
+/* Rodapé
+–––––––––––––––––––––––––––––––––– –––––––––––––––– */
+
+footer.rodape {
+  padding: 7rem 0;
+  background-color: #555;
+  color: #b1b1b1;
+}
+
+.rodape.titulo {
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.rodape.texto,
+a.rodape.texto {
+  font-size: 0.9em;
+  display: block;
+  color: #b1b1b1;
+  text-decoration: none;
+}

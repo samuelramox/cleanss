@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CleanSS Docs</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/cleanss.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12 col">
+        <h1>Grid</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1 col">ONE</div>
+      <div class="col-11 col">ELEVEN</div>
+    </div>
+    <div class="row">
+      <div class="col-2 col">TWO</div>
+      <div class="col-10 col">TEN</div>
+    </div>
+    <div class="row">
+      <div class="col-3 col">THREE</div>
+      <div class="col-9 col">NINE </div>
+    </div>
+    <div class="row">
+      <div class="col-4 col">FOUR</div>
+      <div class="col-8 col">EIGHT</div>
+    </div>
+    <div class="row">
+      <div class="col-5 col">FIVE</div>
+      <div class="col-7 col">SEVEN</div>
+    </div>
+    <div class="row">
+      <div class="col-6 col">SIX</div>
+      <div class="col-6 col">SEVEN</div>
+    </div>
+    <div class="row">
+      <div class="col-7 col">SEVEN</div>
+      <div class="col-5 col">FIVE</div>
+    </div>
+    <div class="row">
+      <div class="col-8 col">EIGHT</div>
+      <div class="col-4 col">FOUR</div>
+    </div>
+    <div class="row">
+      <div class="col-9 col">NINE</div>
+      <div class="col-3 col">THREE</div>
+    </div>
+    <div class="row">
+      <div class="col-10 col">TEN</div>
+      <div class="col-2 col">TWO</div>
+    </div>
+    <div class="row">
+      <div class="col-11 col">ELEVEN</div>
+      <div class="col-1 col">ONE</div>
+    </div>
+    <div class="row">
+      <div class="col-12 col">TWELVE</div>
+    </div>
+    <div class="row">
+      <div class="col-4 col">FOUR</div>
+      <div class="col-4 col">FOUR</div>
+      <div class="col-4 col">FOUR</div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col">
+        <h1>Typography</h1>
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
+        <p>Paragraphs in
+          <strong>bold</strong> with
+          <em>italic</em>, a bit of
+          <u>underline</u> and
+          <mark>marking</mark>.
+        </p>
+        <p>Finally, a
+          <a href="#">link</a>.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col">
+        <h1>Buttons</h1>
+        <button>Button element</button>
+        <input type="button" value="Input button">
+        <input type="submit" value="Input submit">
+        <a href="#" class="btn">Link button</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col">
+        <button class="btn primary">Button element</button>
+        <input type="button" value="Input button" class="btn primary">
+        <input type="submit" value="Input submit" class="btn primary">
+        <a href="#" class="btn primary">Link button</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col">
+        <h1>Forms</h1>
+        <form>
+          <div class="row">
+            <div class="col-6 col">
+              <label for="name">Name</label>
+              <input type="text" id="name" class="u-width-100">
+            </div>
+            <div class="col-6 col">
+              <label for="subject">Subject</label>
+              <select id="subject" class="u-width-100">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col">
+              <label for="message">Message</label>
+              <textarea id="message" rows="10" class="u-width-100"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col">
+              <label>
+                <input type="checkbox"> Accept the terms
+              </label>
+              <input type="submit" value="Send" class="btn primary">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col">
+        <h1>Lists</h1>
+      </div>
+      <div class="col-6 col">
+        <ul>
+          <li>Unordered lists have basic style</li>
+          <li>And can have an internal level
+            <ul>
+              <li>Lorem ipsum</li>
+              <li>Dolor sit amet</li>
+            </ul>
+          </li>
+          <li>Lorem ipsum dolor sit amet</li>
+        </ul>
+      </div>
+      <div class="col-6 col">
+        <ol>
+          <li>Ordered lists have basic style</li>
+          <li>And can have an internal level
+            <ol>
+              <li>Lorem ipsum</li>
+              <li>Dolor sit amet</li>
+            </ol>
+          </li>
+          <li>Lorem ipsum dolor sit amet</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col">
+        <h1>Codes</h1>
+        <p>Inline codes
+          <code>like this</code>
+        </p>
+        <pre><code>.some-class {
+  background-color: blue;
+}
+        </code></pre>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col">
+        <h1>Tables</h1>
+        <table class="u-width-100">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>System</th>
+              <th>City</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Jurema Pessoa</td>
+              <td>32</td>
+              <td>Linux</td>
+              <td>Anywhere</td>
+            </tr>
+            <tr>
+              <td>João Ninguém</td>
+              <td>30</td>
+              <td>Windows</td>
+              <td>Nowhere</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col">
+        <h1>Responsive images</h1>
+      </div>
+      <div class="col-6 col">
+        <img src="img/valley.jpeg" alt="Vale" class="u-width-100">
+      </div>
+      <div class="col-6 col">
+        <img src="img/valley.jpeg" alt="Vale" class="u-width-100">
+      </div>
+    </div>
+
+  </div>
+  <!-- End of container-->
+</body>
+
+</html>
