@@ -5,13 +5,13 @@
 - Light
 - Easy
 - Flexbox
-- Responsive
+- Responsive grid
 
 
 ## How to use:
-Just include the CSS file in your HTML.
+Just include the [CleanSS](css/cleanss.css) file into your ``` <head> ``` after the **Reset** file.
 
-* [Documentation](https://samuelramox.github.io/cleanss/)
+* [Documentation](https://samuelramox.github.io/cleanss/)  
 
 
 
