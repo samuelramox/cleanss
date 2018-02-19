@@ -1,6 +1,6 @@
 # CleanSS
 
-## A simple CSS framework
+## A simple CSS framework:
 
 - Light
 - Easy
@@ -8,5 +8,8 @@
 - Responsive
 
 
+## How to use:
 * [Documentation](https://samuelramox.github.io/cleanss/)
+
+
 
